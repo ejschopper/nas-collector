@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+# Local runtime state
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.log
+*.tmp
+*.part
+*.partial
+*.webp
+.env
+.env.*
+!.env.example
+config.local.json
+settings.local.json
+# Artwork and previews
+LocalTestWorkspace/
+NAS_Collected/
+Collected/
+ThumbnailCache/
+thumbnails-cache/
+cache/
+output/
+reports/
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.psd
+*.psb
+*.dng
+*.raw
+# Windows/editor
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
